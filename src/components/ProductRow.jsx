@@ -8,7 +8,7 @@ export default function ProductsRow(props){
                 <td>
                     {inStock ? <p>{name}</p> : <p style={{"color":"red"}}>{name}</p>}
                 </td>
-                <td className = 'price'>
+                <td>
                     {price}
                 </td>
             </tr>
